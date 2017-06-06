@@ -12,7 +12,7 @@ JTimeUtil.instance.getCurrentTimeMillis(context);
 ```
 ##### 2.阻塞式 时间过长可能会爆出ANR
 ```java
-JTimeUtil.instance.getSynCurrentTimeMillis(context);
+JTimeUtil.instance.getSyncCurrentTimeMillis(context);
 ```
 ##### 3.异步式 异步返回当前网络时间戳
 ```java
