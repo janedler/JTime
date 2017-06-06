@@ -67,7 +67,7 @@ public class JTimeUtil {
      * @param context
      * @return
      */
-    public long getSynCurrentTimeMillis(Context context) {
+    public long getSyncCurrentTimeMillis(Context context) {
         return getCurrentTimeMillis(context,null);
 
     }

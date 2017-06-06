@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 ((TextView)findViewById(R.id.networkTwo_tv)).setText(
                         "本机时间：" + System.currentTimeMillis() +"\n"
-                                +"网络时间："+ JTimeUtil.instance.getSynCurrentTimeMillis(MainActivity.this)
+                                +"网络时间："+ JTimeUtil.instance.getSyncCurrentTimeMillis(MainActivity.this)
                 );
             }
         });
