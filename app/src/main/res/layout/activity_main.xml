@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/networkOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取时间"/>
+
+    <TextView
+        android:id="@+id/networkOne_tv"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/networkTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="阻塞式获取时间"/>
+
+    <TextView
+        android:id="@+id/networkTwo_tv"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/networkThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="异步式获取时间"/>
+
+    <TextView
+        android:id="@+id/networkThree_tv"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
