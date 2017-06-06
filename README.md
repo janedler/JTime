@@ -16,7 +16,7 @@ JTimeUtil.instance.getSyncCurrentTimeMillis(context);
 ```
 ##### 3.异步式 异步返回当前网络时间戳
 ```java
-JTimeUtil.instance.getAsynCurrentTimeMillis(MainActivity.this,new JTimeUtil.TimeCallBack(){
+JTimeUtil.instance.getAsynCurrentTimeMillis(context,new JTimeUtil.TimeCallBack(){
                     @Override
                     public void onTimeCallBack(long time) {
                         
